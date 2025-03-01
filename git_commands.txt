@@ -5,3 +5,13 @@ Git Commands :
   3) git config --global user.email "<emailId>" - this command set the email at global level
   4) git add <file_name> - to stage the changes done in particular file to staging area 
   5) git add . - stage all the files in the folder
+  6) git status - this will tell u the untracked files, changes that are not stages, changes that are staged for commit
+  7) git restore --staged <filename> - this command will restore the file from staging area
+  8) git log - this will have the history of the fles.
+  9) To connect the local repo to the remote repo - git remote add orgin <url>
+  	: origin is identifier to the current user repo url
+  10) git remote --verbose - it will list the origin and upstream url
+  	: upstream is an identifier for the forked project url.
+  11) git branch <branch_name> - this will create the branch 
+  	a) never commit in master branch
+	b) for every feature addition or bug fix , create the another branch and do the changes and push the changes in remote repo and a rasise a PR for the sync the master branch.
