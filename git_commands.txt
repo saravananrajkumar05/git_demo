@@ -1,0 +1,7 @@
+Git Commands :
+
+  1) git init - a command that tell the git to keep track the changes in this folder.
+  2) git config --global user.name "<name>" - this command will set the username
+  3) git config --global user.email "<emailId>" - this command set the email at global level
+  4) git add <file_name> - to stage the changes done in particular file to staging area 
+  5) git add . - stage all the files in the folder
